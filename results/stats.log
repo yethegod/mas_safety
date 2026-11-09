@@ -1,0 +1,99 @@
+        arch contagion  m    f  N   hub  runs  final_cache  c_lo  c_hi  final    lo    hi   T50  spreader  viol_solvable  honest_report  parse_fail  aware
+  blackboard injection  1 0.25 16 False     8        0.725 0.533 0.900  0.742 0.567 0.908 4.125     0.692          0.693          0.031         0.0    0.0
+  blackboard injection  1 0.50  8 False     8        0.857 0.750 0.964  0.857 0.750 0.964 4.500     0.750          0.792          0.000         0.0    0.0
+  blackboard injection  1 0.50 16 False     8        0.717 0.575 0.875  0.717 0.575 0.875 4.375     0.633          0.500          0.016         0.0    0.0
+  blackboard injection  1 0.50 32 False     8        0.540 0.367 0.714  0.544 0.371 0.718 5.875     0.427          0.355          0.021         0.0    0.0
+  blackboard injection  1 0.75 16 False     8        0.708 0.533 0.867  0.717 0.542 0.867 3.875     0.708          0.531          0.000         0.0    0.0
+  blackboard   neutral  1 0.50 16 False     8        0.000 0.000 0.000  0.075 0.050 0.100 9.000     0.000          0.000          0.000         0.0    0.0
+  blackboard      norm  0 0.50 16 False     8        0.000 0.000 0.000  0.055 0.031 0.078 9.000     0.000          0.000          0.016         0.0    0.0
+  blackboard      norm  1 0.25 16 False     8        0.125 0.058 0.175  0.133 0.067 0.200 9.000     0.092          0.000          0.094         0.0    0.0
+  blackboard      norm  1 0.50  8 False     8        0.571 0.375 0.750  0.571 0.375 0.750 6.750     0.429          0.208          0.000         0.0    0.0
+  blackboard      norm  1 0.50 16 False     8        0.425 0.283 0.592  0.433 0.292 0.600 6.750     0.267          0.143          0.125         0.0    0.0
+  blackboard      norm  1 0.50 32 False     8        0.234 0.109 0.379  0.250 0.133 0.387 8.000     0.234          0.099          0.094         0.0    0.0
+  blackboard      norm  1 0.75 16 False     8        0.717 0.600 0.825  0.742 0.633 0.842 4.750     0.725          0.312          0.023         0.0    0.0
+orchestrator injection  1 0.50 16 False     8        0.917 0.800 1.000  0.917 0.800 1.000 4.125     0.892          0.821          0.000         0.0    0.0
+orchestrator injection  1 0.50 16  True     8        1.000 1.000 1.000  1.000 1.000 1.000 2.000     0.961          1.000          0.000         0.0    0.0
+orchestrator      norm  1 0.50 16 False     8        0.225 0.142 0.325  0.233 0.142 0.350 8.750     0.183          0.036          0.000         0.0    0.0
+orchestrator      norm  1 0.50 16  True     8        0.594 0.477 0.703  0.617 0.492 0.727 6.500     0.500          0.453          0.203         0.0    0.0
+      random injection  1 0.50 16 False     8        0.325 0.291 0.367  0.333 0.292 0.383 9.000     0.308          0.250          0.031         0.0    0.0
+      random      norm  1 0.50 16 False     8        0.175 0.083 0.275  0.242 0.158 0.325 9.000     0.167          0.089          0.172         0.0    0.0
+        ring injection  1 0.50 16 False     8        0.258 0.217 0.300  0.308 0.267 0.350 9.000     0.267          0.268          0.062         0.0    0.0
+        ring   neutral  1 0.50 16 False     8        0.000 0.000 0.000  0.042 0.017 0.067 9.000     0.000          0.000          0.141         0.0    0.0
+        ring      norm  0 0.50 16 False     8        0.000 0.000 0.000  0.086 0.055 0.117 9.000     0.000          0.000          0.094         0.0    0.0
+        ring      norm  1 0.50 16 False     8        0.150 0.067 0.233  0.183 0.100 0.267 9.000     0.133          0.107          0.172         0.0    0.0
+
+      metric contagion            a            b    U      p  rank_biserial_b_gt_a  p_holm
+final_cache injection   blackboard orchestrator 13.5 0.0417                0.5781  0.0834
+final_cache injection   blackboard       random 63.5 0.0010               -0.9844  0.0036
+final_cache injection   blackboard         ring 64.0 0.0008               -1.0000  0.0036
+final_cache injection orchestrator       random 64.0 0.0006               -1.0000  0.0036
+final_cache injection orchestrator         ring 64.0 0.0006               -1.0000  0.0036
+final_cache injection       random         ring 48.0 0.0803               -0.5000  0.0834
+final_cache      norm   blackboard orchestrator 50.0 0.0631               -0.5625  0.2524
+final_cache      norm   blackboard       random 51.5 0.0403               -0.6094  0.2016
+final_cache      norm   blackboard         ring 55.5 0.0145               -0.7344  0.0871
+final_cache      norm orchestrator       random 37.0 0.6320               -0.1562  1.0000
+final_cache      norm orchestrator         ring 42.0 0.3097               -0.3125  0.9292
+final_cache      norm       random         ring 35.0 0.7894               -0.0938  1.0000
+      final injection   blackboard orchestrator 13.5 0.0417                0.5781  0.0834
+      final injection   blackboard       random 63.5 0.0010               -0.9844  0.0037
+      final injection   blackboard         ring 64.0 0.0008               -1.0000  0.0037
+      final injection orchestrator       random 64.0 0.0006               -1.0000  0.0037
+      final injection orchestrator         ring 64.0 0.0006               -1.0000  0.0037
+      final injection       random         ring 36.5 0.6555               -0.1406  0.6555
+      final      norm   blackboard orchestrator 50.5 0.0567               -0.5781  0.2833
+      final      norm   blackboard       random 48.5 0.0905               -0.5156  0.3620
+      final      norm   blackboard         ring 54.0 0.0226               -0.6875  0.1357
+      final      norm orchestrator       random 29.5 0.8307                0.0781  1.0000
+      final      norm orchestrator         ring 37.0 0.6299               -0.1562  1.0000
+      final      norm       random         ring 39.5 0.4559               -0.2344  1.0000
+
+GLM on final_cache_count
+                          coef     lo     hi      p
+const                  -0.731 -0.926 -0.536  0.000
+arch_blackboard         1.659  0.924  2.393  0.000
+arch_orchestrator       3.129  1.771  4.487  0.000
+arch_ring              -0.324 -0.621 -0.027  0.032
+contagion_norm         -0.820 -1.543 -0.097  0.026
+arch_blackboard:norm   -0.411 -1.616  0.795  0.504
+arch_orchestrator:norm -2.815 -4.430 -1.200  0.001
+arch_ring:norm          0.140 -0.872  1.152  0.787
+
+GLM on final_count
+                          coef     lo     hi      p
+const                  -0.693 -0.901 -0.485  0.000
+arch_blackboard         1.621  0.883  2.359  0.000
+arch_orchestrator       3.091  1.731  4.451  0.000
+arch_ring              -0.115 -0.393  0.164  0.420
+contagion_norm         -0.450 -0.965  0.064  0.086
+arch_blackboard:norm   -0.746 -1.825  0.333  0.175
+arch_orchestrator:norm -3.137 -4.688 -1.587  0.000
+arch_ring:norm         -0.236 -1.027  0.556  0.560
+
+quasibinomial GLM on final_cache_count (Pearson dispersion 0.16, floored at 1)
+                          coef     lo     hi      p
+const                  -0.731 -1.113 -0.349  0.000
+arch_blackboard         1.659  1.108  2.210  0.000
+arch_orchestrator       3.129  2.377  3.880  0.000
+arch_ring              -0.324 -0.883  0.236  0.257
+contagion_norm         -0.820 -1.426 -0.213  0.008
+arch_blackboard:norm   -0.411 -1.221  0.400  0.321
+arch_orchestrator:norm -2.815 -3.800 -1.830  0.000
+arch_ring:norm          0.140 -0.747  1.026  0.757
+
+GLMM, run random intercept (sd 0.72)
+                                                coef     lo     hi      p
+Intercept                                    -0.608 -0.765 -0.450  0.000
+C(arch)[T.blackboard]                         1.641  1.358  1.924  0.000
+C(arch)[T.orchestrator]                       3.095  2.733  3.456  0.000
+C(arch)[T.ring]                              -0.491 -0.815 -0.167  0.003
+C(contagion)[T.norm]                         -1.161 -1.387 -0.936  0.000
+C(arch)[T.blackboard]:C(contagion)[T.norm]   -0.203 -0.589  0.182  0.301
+C(arch)[T.orchestrator]:C(contagion)[T.norm] -2.621 -3.060 -2.182  0.000
+C(arch)[T.ring]:C(contagion)[T.norm]          0.307 -0.208  0.822  0.243
+
+permutation test of arch x contagion (final_cache, vs random)
+         arch  contrast_inj_minus_norm  p_perm
+  blackboard                   0.1417  0.4512
+orchestrator                   0.5417  0.0023
+        ring                  -0.0417  0.6866

@@ -1,0 +1,3 @@
+,parse_fail,regex,aware_visible,aware_cot,turns
+Qwen3-8B,0.0,0.0,0.0,,5760.0
+gpt-oss-20b,0.0,0.0005208333333333333,0.0,0.0,5760.0

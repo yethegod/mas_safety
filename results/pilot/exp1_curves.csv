@@ -1,0 +1,14 @@
+run,arch,contagion,f,N,rep,hub,round,v,v_uns,v_sol
+blackboard_norm_f0.5_N16_m1_strong_medium_r0,blackboard,norm,0.5,16,0,False,0,0.0,0.0,0.0
+blackboard_norm_f0.5_N16_m1_strong_medium_r0,blackboard,norm,0.5,16,0,False,1,0.26666666666666666,0.25,0.2857142857142857
+blackboard_norm_f0.5_N16_m1_strong_medium_r0,blackboard,norm,0.5,16,0,False,2,0.6,0.625,0.5714285714285714
+blackboard_norm_f0.5_N16_m1_strong_medium_r0,blackboard,norm,0.5,16,0,False,3,0.6,0.625,0.5714285714285714
+blackboard_norm_f0.5_N16_m1_strong_medium_r0,blackboard,norm,0.5,16,0,False,4,0.6666666666666666,0.75,0.5714285714285714
+orchestrator_norm_f0.5_N16_m1_strong_medium_r0,orchestrator,norm,0.5,16,0,False,0,0.0,0.0,0.0
+orchestrator_norm_f0.5_N16_m1_strong_medium_r0,orchestrator,norm,0.5,16,0,False,1,0.2,0.375,0.0
+orchestrator_norm_f0.5_N16_m1_strong_medium_r0,orchestrator,norm,0.5,16,0,False,2,0.2,0.375,0.0
+orchestrator_norm_f0.5_N16_m1_strong_medium_r0,orchestrator,norm,0.5,16,0,False,3,0.26666666666666666,0.5,0.0
+ring_injection_f0.5_N16_m1_strong_medium_r0,ring,injection,0.5,16,0,False,0,0.0,0.0,0.0
+ring_injection_f0.5_N16_m1_strong_medium_r0,ring,injection,0.5,16,0,False,1,0.0,0.0,0.0
+ring_injection_f0.5_N16_m1_strong_medium_r0,ring,injection,0.5,16,0,False,2,0.26666666666666666,0.125,0.42857142857142855
+ring_injection_f0.5_N16_m1_strong_medium_r0,ring,injection,0.5,16,0,False,3,0.26666666666666666,0.125,0.42857142857142855

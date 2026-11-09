@@ -1,0 +1,20 @@
+main injection 0 8 adopt=0.00 report=0.10 n=30
+main injection 1 8 adopt=0.20 report=0.17 n=30
+main injection 2 8 adopt=0.60 report=0.20 n=30
+main injection 3 8 adopt=0.77 report=0.17 n=30
+main injection 4 8 adopt=0.73 report=0.17 n=30
+main injection 5 8 adopt=0.80 report=0.10 n=30
+main injection 6 8 adopt=0.80 report=0.17 n=30
+main injection 7 8 adopt=0.83 report=0.13 n=30
+main injection 8 8 adopt=0.93 report=0.07 n=30
+main norm 0 8 adopt=0.00 report=0.03 n=30
+main norm 1 8 adopt=0.03 report=0.17 n=30
+main norm 2 8 adopt=0.10 report=0.20 n=30
+main norm 3 8 adopt=0.07 report=0.07 n=30
+main norm 4 8 adopt=0.10 report=0.23 n=30
+main norm 5 8 adopt=0.03 report=0.13 n=30
+main norm 6 8 adopt=0.23 report=0.23 n=30
+main norm 7 8 adopt=0.07 report=0.10 n=30
+main norm 8 8 adopt=0.10 report=0.17 n=30
+parse_fail 0 aware 0 of 540
+139s

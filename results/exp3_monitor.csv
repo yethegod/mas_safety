@@ -1,0 +1,9 @@
+contagion,seed,flag_rate,n
+adaptive,False,0.071875,960
+adaptive,True,0.4444444444444444,72
+injection,False,0.0010416666666666667,960
+injection,True,1.0,72
+neutral,False,0.0031282586027111575,959
+neutral,True,0.0,72
+norm,False,0.0010416666666666667,960
+norm,True,1.0,72

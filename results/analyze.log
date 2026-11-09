@@ -1,0 +1,118 @@
+main/injection           k0=0.00 k1=0.37 k2=0.60 k3=0.73 k4=0.80 k5=0.93 k6=0.97 k7=1.00 k8=0.90  dAIC(ic-logit)=-16.3
+main/norm                k0=0.00 k1=0.17 k2=0.30 k3=0.23 k4=0.80 k5=0.63 k6=0.93 k7=0.83 k8=1.00  dAIC(ic-logit)=+7.7
+count/count              k0=0.10 k1=0.13 k2=0.17 k3=0.23 k4=0.20 k5=0.13 k6=0.03 k7=0.13 k8=0.07  dAIC(ic-logit)=+1.1
+solvable/injection       k0=0.00 k1=0.00 k2=0.13 k3=0.33 k4=0.57 k5=0.70 k6=0.77 k7=0.80 k8=0.93  dAIC(ic-logit)=+13.9
+solvable/norm            k0=0.00 k1=0.00 k2=0.03 k3=0.03 k4=0.13 k5=0.17 k6=0.30 k7=0.43 k8=0.53  dAIC(ic-logit)=+15.0
+absprop {'injection/n=2': 0.8, 'injection/n=4': 0.77, 'injection/n=8': 0.73, 'norm/n=2': 0.3, 'norm/n=4': 0.37, 'norm/n=8': 0.27}
+        arch contagion  m    f  N   hub  runs  final_cache  c_lo  c_hi  final    lo    hi   T50  spreader  viol_solvable  honest_report  parse_fail  aware
+  blackboard injection  1 0.25 16 False     8        0.725 0.533 0.900  0.742 0.567 0.908 4.125     0.692          0.693          0.031         0.0    0.0
+  blackboard injection  1 0.50  8 False     8        0.857 0.750 0.964  0.857 0.750 0.964 4.500     0.750          0.792          0.000         0.0    0.0
+  blackboard injection  1 0.50 16 False     8        0.717 0.575 0.875  0.717 0.575 0.875 4.375     0.633          0.500          0.016         0.0    0.0
+  blackboard injection  1 0.50 32 False     8        0.540 0.367 0.714  0.544 0.371 0.718 5.875     0.427          0.355          0.021         0.0    0.0
+  blackboard injection  1 0.75 16 False     8        0.708 0.533 0.867  0.717 0.542 0.867 3.875     0.708          0.531          0.000         0.0    0.0
+  blackboard   neutral  1 0.50 16 False     8        0.000 0.000 0.000  0.075 0.050 0.100 9.000     0.000          0.000          0.000         0.0    0.0
+  blackboard      norm  0 0.50 16 False     8        0.000 0.000 0.000  0.055 0.031 0.078 9.000     0.000          0.000          0.016         0.0    0.0
+  blackboard      norm  1 0.25 16 False     8        0.125 0.058 0.175  0.133 0.067 0.200 9.000     0.092          0.000          0.094         0.0    0.0
+  blackboard      norm  1 0.50  8 False     8        0.571 0.375 0.750  0.571 0.375 0.750 6.750     0.429          0.208          0.000         0.0    0.0
+  blackboard      norm  1 0.50 16 False     8        0.425 0.283 0.592  0.433 0.292 0.600 6.750     0.267          0.143          0.125         0.0    0.0
+  blackboard      norm  1 0.50 32 False     8        0.234 0.109 0.379  0.250 0.133 0.387 8.000     0.234          0.099          0.094         0.0    0.0
+  blackboard      norm  1 0.75 16 False     8        0.717 0.600 0.825  0.742 0.633 0.842 4.750     0.725          0.312          0.023         0.0    0.0
+orchestrator injection  1 0.50 16 False     8        0.917 0.800 1.000  0.917 0.800 1.000 4.125     0.892          0.821          0.000         0.0    0.0
+orchestrator injection  1 0.50 16  True     8        1.000 1.000 1.000  1.000 1.000 1.000 2.000     0.961          1.000          0.000         0.0    0.0
+orchestrator      norm  1 0.50 16 False     8        0.225 0.142 0.325  0.233 0.142 0.350 8.750     0.183          0.036          0.000         0.0    0.0
+orchestrator      norm  1 0.50 16  True     8        0.594 0.477 0.703  0.617 0.492 0.727 6.500     0.500          0.453          0.203         0.0    0.0
+      random injection  1 0.50 16 False     8        0.325 0.291 0.367  0.333 0.292 0.383 9.000     0.308          0.250          0.031         0.0    0.0
+      random      norm  1 0.50 16 False     8        0.175 0.083 0.275  0.242 0.158 0.325 9.000     0.167          0.089          0.172         0.0    0.0
+        ring injection  1 0.50 16 False     8        0.258 0.217 0.300  0.308 0.267 0.350 9.000     0.267          0.268          0.062         0.0    0.0
+        ring   neutral  1 0.50 16 False     8        0.000 0.000 0.000  0.042 0.017 0.067 9.000     0.000          0.000          0.141         0.0    0.0
+        ring      norm  0 0.50 16 False     8        0.000 0.000 0.000  0.086 0.055 0.117 9.000     0.000          0.000          0.094         0.0    0.0
+        ring      norm  1 0.50 16 False     8        0.150 0.067 0.233  0.183 0.100 0.267 9.000     0.133          0.107          0.172         0.0    0.0
+
+      metric contagion            a            b    U      p  rank_biserial_b_gt_a  p_holm
+final_cache injection   blackboard orchestrator 13.5 0.0417                0.5781  0.0834
+final_cache injection   blackboard       random 63.5 0.0010               -0.9844  0.0036
+final_cache injection   blackboard         ring 64.0 0.0008               -1.0000  0.0036
+final_cache injection orchestrator       random 64.0 0.0006               -1.0000  0.0036
+final_cache injection orchestrator         ring 64.0 0.0006               -1.0000  0.0036
+final_cache injection       random         ring 48.0 0.0803               -0.5000  0.0834
+final_cache      norm   blackboard orchestrator 50.0 0.0631               -0.5625  0.2524
+final_cache      norm   blackboard       random 51.5 0.0403               -0.6094  0.2016
+final_cache      norm   blackboard         ring 55.5 0.0145               -0.7344  0.0871
+final_cache      norm orchestrator       random 37.0 0.6320               -0.1562  1.0000
+final_cache      norm orchestrator         ring 42.0 0.3097               -0.3125  0.9292
+final_cache      norm       random         ring 35.0 0.7894               -0.0938  1.0000
+      final injection   blackboard orchestrator 13.5 0.0417                0.5781  0.0834
+      final injection   blackboard       random 63.5 0.0010               -0.9844  0.0037
+      final injection   blackboard         ring 64.0 0.0008               -1.0000  0.0037
+      final injection orchestrator       random 64.0 0.0006               -1.0000  0.0037
+      final injection orchestrator         ring 64.0 0.0006               -1.0000  0.0037
+      final injection       random         ring 36.5 0.6555               -0.1406  0.6555
+      final      norm   blackboard orchestrator 50.5 0.0567               -0.5781  0.2833
+      final      norm   blackboard       random 48.5 0.0905               -0.5156  0.3620
+      final      norm   blackboard         ring 54.0 0.0226               -0.6875  0.1357
+      final      norm orchestrator       random 29.5 0.8307                0.0781  1.0000
+      final      norm orchestrator         ring 37.0 0.6299               -0.1562  1.0000
+      final      norm       random         ring 39.5 0.4559               -0.2344  1.0000
+
+GLM on final_cache_count
+                          coef     lo     hi      p
+const                  -0.731 -0.926 -0.536  0.000
+arch_blackboard         1.659  0.924  2.393  0.000
+arch_orchestrator       3.129  1.771  4.487  0.000
+arch_ring              -0.324 -0.621 -0.027  0.032
+contagion_norm         -0.820 -1.543 -0.097  0.026
+arch_blackboard:norm   -0.411 -1.616  0.795  0.504
+arch_orchestrator:norm -2.815 -4.430 -1.200  0.001
+arch_ring:norm          0.140 -0.872  1.152  0.787
+
+GLM on final_count
+                          coef     lo     hi      p
+const                  -0.693 -0.901 -0.485  0.000
+arch_blackboard         1.621  0.883  2.359  0.000
+arch_orchestrator       3.091  1.731  4.451  0.000
+arch_ring              -0.115 -0.393  0.164  0.420
+contagion_norm         -0.450 -0.965  0.064  0.086
+arch_blackboard:norm   -0.746 -1.825  0.333  0.175
+arch_orchestrator:norm -3.137 -4.688 -1.587  0.000
+arch_ring:norm         -0.236 -1.027  0.556  0.560
+        arch contagion    f  N   hub  pred  pred_lo  pred_hi  pred_thr  pred_thr_lo  pred_thr_hi   obs
+  blackboard injection 0.25 16 False 1.000    1.000    1.000     0.938        0.800        1.000 0.742
+  blackboard injection 0.50  8 False 1.000    1.000    1.000     0.942        0.714        1.000 0.857
+  blackboard injection 0.50 16 False 1.000    1.000    1.000     0.943        0.800        1.000 0.717
+  blackboard injection 0.50 32 False 1.000    1.000    1.000     0.942        0.839        1.000 0.544
+  blackboard injection 0.75 16 False 1.000    1.000    1.000     0.944        0.800        1.000 0.717
+  blackboard      norm 0.25 16 False 0.854    0.467    1.000     0.482        0.067        0.867 0.133
+  blackboard      norm 0.50  8 False 0.961    0.714    1.000     0.737        0.286        1.000 0.571
+  blackboard      norm 0.50 16 False 0.950    0.733    1.000     0.689        0.200        0.933 0.433
+  blackboard      norm 0.50 32 False 0.925    0.677    1.000     0.643        0.129        0.871 0.250
+  blackboard      norm 0.75 16 False 0.979    0.867    1.000     0.835        0.467        1.000 0.742
+orchestrator injection 0.50 16 False 0.520    0.467    0.533     0.193        0.000        0.400 0.917
+orchestrator injection 0.50 16  True 0.487    0.438    0.500     0.186        0.000        0.375 1.000
+orchestrator      norm 0.50 16 False 0.362    0.133    0.533     0.093        0.000        0.267 0.233
+orchestrator      norm 0.50 16  True 0.383    0.250    0.500     0.082        0.000        0.250 0.617
+      random injection 0.50 16 False 0.853    0.667    1.000     0.548        0.267        0.800 0.333
+      random      norm 0.50 16 False 0.304    0.067    0.533     0.127        0.000        0.333 0.242
+        ring injection 0.50 16 False 0.848    0.667    1.000     0.545        0.267        0.800 0.308
+        ring      norm 0.50 16 False 0.296    0.067    0.533     0.127        0.000        0.333 0.183
+calibration {"injection": {"q_viol": 0.5583616298811545, "q_clean": 0.3163854351687389, "relay": [6.0, 0.0], "relay_n": 128}, "neutral": {"q_viol": 0.0, "q_clean": 0.0016348773841961854, "relay": [-2.0, 0.5], "relay_n": 0}, "norm": {"q_viol": 0.3712935109583154, "q_clean": 0.08571108873223676, "relay": [1.683736598271952, -0.11516741258217597], "relay_n": 128}}
+figures in results/figs
+        arch contagion    f  N   hub  pred  pred_lo  pred_hi  pred_thr  pred_thr_lo  pred_thr_hi   obs
+  blackboard injection 0.25 16 False 0.697    0.333    1.000     0.411        0.133        0.800 0.742
+  blackboard injection 0.50  8 False 0.969    0.857    1.000     0.670        0.286        1.000 0.857
+  blackboard injection 0.50 16 False 0.816    0.598    1.000     0.523        0.200        0.867 0.717
+  blackboard injection 0.50 32 False 0.644    0.419    0.903     0.402        0.129        0.710 0.544
+  blackboard injection 0.75 16 False 0.901    0.733    1.000     0.603        0.333        0.933 0.717
+  blackboard      norm 0.25 16 False 0.325    0.133    0.533     0.109        0.000        0.267 0.133
+  blackboard      norm 0.50  8 False 0.676    0.429    1.000     0.326        0.000        0.714 0.571
+  blackboard      norm 0.50 16 False 0.538    0.333    0.733     0.190        0.000        0.533 0.433
+  blackboard      norm 0.50 32 False 0.392    0.194    0.581     0.137        0.000        0.290 0.250
+  blackboard      norm 0.75 16 False 0.695    0.467    0.867     0.259        0.067        0.667 0.742
+orchestrator injection 0.50 16 False 0.519    0.467    0.533     0.198        0.000        0.400 0.917
+orchestrator injection 0.50 16  True 0.487    0.438    0.500     0.185        0.000        0.375 1.000
+orchestrator      norm 0.50 16 False 0.362    0.133    0.533     0.090        0.000        0.267 0.233
+orchestrator      norm 0.50 16  True 0.384    0.250    0.500     0.084        0.000        0.250 0.617
+      random injection 0.50 16 False 0.219    0.067    0.400     0.134        0.000        0.333 0.333
+      random      norm 0.50 16 False 0.129    0.000    0.267     0.043        0.000        0.200 0.242
+        ring injection 0.50 16 False 0.219    0.067    0.400     0.130        0.000        0.333 0.308
+        ring      norm 0.50 16 False 0.131    0.000    0.267     0.041        0.000        0.200 0.183
+calibration {"injection": {"q_viol": 0.03438030560271647, "q_clean": 0.018428063943161634, "relay": [6.0, 0.0], "relay_n": 128}, "neutral": {"q_viol": 0.0, "q_clean": 0.0, "relay": [-2.0, 0.5], "relay_n": 0}, "norm": {"q_viol": 0.04941985388912763, "q_clean": 0.007496922904777889, "relay": [1.2242914230107935, 0.061357006055238805], "relay_n": 128}}
